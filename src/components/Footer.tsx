@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
           {/* Categories */}
           <div className="flex flex-col items-start text-left md:ml-16 w-full">
             <h4 className="text-lg font-semibold mb-8 text-center">Categories</h4>
-            <ul className="grid grid-cols-2 gap-x-6 gap-y-6">
+            <ul className="grid grid-cols-2 gap-x-6 gap-y-4">
               {['Aerodynamics ', 'Propulsion ', 'Structures ', 'Materials ', 'Systems ','CAD',].map((category) => (
                 <li key={category}>
                   <span className="text-gray-300">{category}</span>
