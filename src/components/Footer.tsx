@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center text-center md:text-left">
           {/* Brand */}
-          <div className="space-y-4 flex flex-col items-start pl-10 md:pl-10">
+          <div className="space-y-4 flex flex-col items-start">
             <div className="flex flex-col items-start space-y-2 md:space-y-6">
               <div className="flex items-center space-x-4">
                 <div className="w-20 h-20 flex items-center justify-start bg-white rounded-full">
